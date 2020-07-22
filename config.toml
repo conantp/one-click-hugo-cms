@@ -1,9 +1,7 @@
 languageCode = "en-us"
 title = "My New Netlify Victor Hugo Site"
 
-outputFormats:
-  MyEnrichedFormat:
-    baseName: myindex
-    isPlainText: true
-    mediaType: text/enriched
-    protocol: bep://
+[outputs]
+    page = ["json"] # A player
+    section = ["json"] # All players
+    home = ["json"] # Everything
